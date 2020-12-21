@@ -59,11 +59,11 @@
             <option value="2018">2018</option>
             <option value="2019">2019</option>
             <option value="2020">2020</option>
-            <option value="2020">2021</option>
-            <option value="2020">2022</option>
-            <option value="2020">2023</option>
-            <option value="2020">2024</option>
-            <option value="2020">2025</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
           </select>
         </div>
 
@@ -91,7 +91,7 @@
 
         <div class="col-md-6">
           <select class="form-control" id="tipo">
-            <option>Tipo</option>
+            <option value="">Tipo</option>
             <option value="1">Alimentação</option>
             <option value="2">Educação</option>
             <option value="3">Lazer</option>
@@ -117,6 +117,22 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal Sucesso -->
+    <div class="modal fade" id="registraDespesa" tabindex="-1" role="dialog" aria-labelledby="modalDialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="corTexto">
+            <h5 class="modal-title" id="dialog"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="description">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" id="botaoVoltar" data-dismiss="modal">Voltar</button>
+          </div>
   </body>	
 
 </html>
