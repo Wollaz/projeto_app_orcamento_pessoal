@@ -241,7 +241,5 @@ function pesquisarDespesas() {
     let despesas = banco.pesquisar(despesa)
 
     carregaListaDespesas(despesas, true) 
-    
-    
-    
+
 }
