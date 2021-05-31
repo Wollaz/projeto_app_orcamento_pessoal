@@ -137,7 +137,7 @@ function cadastrarDespesa() {
 
     
     if(despesa.validarDados()) {
-        //banco.gravar(despesa)
+        banco.gravar(despesa)
         // dialog de sucesso
         document.getElementById('dialog').innerHTML = 'Registro inserido!'
         document.getElementById('description').innerHTML = 'Despesa foi cadastrada com sucesso!'
